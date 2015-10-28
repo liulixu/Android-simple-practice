@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Pra_fragement_LMMG</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="fra_login_btn_login">login</string>
+    <string name="title_text">Title Text</string>
+    <string name="title_back">Back</string>
+    <string name="title_edit">Edit</string>
+    <string name="music_title_back">BACK</string>
+    <string name="music_title_txt">音乐</string>
+    <string name="music_title_edit">EDIT</string>
+    <string name="note_title_txt">记事本</string>
+    <string name="movie_title_txt">电影</string>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#8e79cc68</color>
+</resources>

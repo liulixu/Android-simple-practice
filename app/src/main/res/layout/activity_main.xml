@@ -1,0 +1,109 @@
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context=".MainActivity"-->
+    <!--android:background="#FFFFFF">-->
+
+<android.support.v4.widget.DrawerLayout
+
+    tools:context=".MainActivity"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <android.support.design.widget.NavigationView
+            android:id="@+id/abc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            >
+
+
+
+
+        </android.support.design.widget.NavigationView>
+
+
+<LinearLayout
+    android:id="@+id/all"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+<LinearLayout
+    android:id="@+id/layout_viewpager"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:weightSum="1">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="visible">
+
+
+        <ImageButton
+            android:id="@+id/fra_btn_login"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#8e79cc68"
+            android:scaleType="center"
+            android:onClick="onClick"
+            android:src="@drawable/home_small" />
+
+        <ImageButton
+            android:id="@+id/fra_btn_music"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#8e79cc68"
+            android:scaleType="center"
+            android:onClick="onClick"
+            android:src="@drawable/music_samll"/>
+
+        <ImageButton
+            android:id="@+id/fra_btn_movie"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#8e79cc68"
+            android:scaleType="center"
+            android:onClick="onClick"
+            android:src="@drawable/movie_small"/>
+
+        <ImageButton
+            android:id="@+id/fra_btn_note"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#8e79cc68"
+            android:scaleType="center"
+            android:onClick="onClick"
+            android:src="@drawable/note"/>
+    </LinearLayout>
+</LinearLayout>
+
+
+<!--</RelativeLayout>-->
+</android.support.v4.widget.DrawerLayout>
